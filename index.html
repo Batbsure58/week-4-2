@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--file creator: Robert Biery
+email robbiery@uat.edu
+for CSC102 class-->
+
+<!--Casino assignment
+    title: Straight 7s
+scene: as i walked in the casino i could smell the burning smell of cigerettes and liqour in the air.
+My type of place where people come accross the galaxay to lose their hard earned money but for me i wanted to find
+informantion. as i sat down a one of the blackjack tables i put my money on the table the dealer exhanged it for chips, 
+i noticed that his palms were becoming more sweaty not just from working but from noticeing that i was a cop looking for dirt........-->
+<html>
+
+<head>
+    <!--This is the head, 
+    none of this appears in the body of the page-->
+    <script src="code.js"></script>
+
+    <link href="style.css" rel="sytlesheet" type="text/css" />
+
+    <title>
+        UATSpace 3
+    </title>
+</head>
+<script>
+    // this is a javascript comment
+    /*this is
+    a multiline
+    comment*/
+</script>
+
+<body>
+    <!-- a table to put the image and h1 on the same line-->
+    <table>
+        <!--this is the picture -->
+        <td><img src="UATSpacelogo.jpg"><td> 
+            <!--this is the title-->
+            <h1>UAT Space Program</h1></td>
+
+        </td>
+    </table>
+    <table border="2" id="data" width="70%">
+        <col style="width: 35%;">
+        <col style="width: 35%;">
+        <thead>
+            <tr>
+                <th align="left">Data Type</th>
+                <th align="left">Reading</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="seconds"><td>Time Elasped</td><td> 15 seconds</td></tr>
+            <tr id="Latitude"><td>Latitude</td><td>0</td></tr>
+            <tr id="Longitude"><td>Longitude</td><td>0</td></tr>
+            <tr id="GPS Alitude"><td>GPS Altitude</td><td>0</td></tr>
+            <tr id="BMP Sensor Alitutde"><td>BMP Sensor Alitutde</td><td>30383.04</td></tr>
+            <tr id="BMP Sensor Pressure"><td>BMP Sensor Pressure</td><td>2.34</td></tr>
+            <tr id="BMP Sensor Tempreture"><td>BMP Sensor Tempreture</td><td>0</td></tr>
+            <tr id="Digital Sensor Tempreture"><td>Digital  Sensor Tempreture</td><td>24.12</td></tr>
+            <tr id="CSS Sensor Tempreture"><td>CSS  Sensor Tempreture</td><td>25</td></tr>
+            <tr id="CSS Sensor eCO2"><td>CSS  Sensor eCO2</td><td>400</td></tr>
+            <tr id="CSS Sensor TVOC"><td>CSS  Sensor TVOC</td><td>0</td></tr>
+            <tr id="UV"><td>UV</td><td>0</td></tr>
+            <tr id="Accel X"><td>Accel X</td><td>-0.87</td></tr>
+            <tr id="Accel Y"><td>Accel Y</td><td>-0.02</td></tr>
+            <tr id="Accel Z"><td>Accel Z</td><td>9.61</td></tr>
+            <tr id="Magentic X"><td>Magentic X</td><td>0.13</td></tr>
+            <tr id="Magentic Y"><td>Magentic Y</td><td>0.57</td></tr>
+            <tr id="Magentic Z"><td>Magentic Z</td><td>-0.24</td></tr>
+            <tr id="Gyro X"><td>Gyro X</td><td>4.66</td></tr>
+            <tr id="Gyro Y"><td>Gyro Y</td><td>0.01</td></tr>
+            <tr id="Gyro Z"><td>Gyro Z</td><td>-0.4</td></tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <button class="button" id="startButton" onclick="start();">Start</button>
+    <button id="stopButton" onclick="stop();" class="button">Stop</button>
+    <br>
+    <button class="button" onclick="playStation();">Play sound</button>
+    <br>
+    <h3 id="crapsResults">Results of the Craps Round</h3>
+    <br>
+    Die1 is: <div id="die1Res">needs to be rolled</div><br>
+    Die2 is: <div id="die2Res">needs to be rolled</div><br>
+    Sum of Die1 + Die2: <div id="sumRes"></div><br>
+    <button class="lgbutton" onclick="playcraps();">Play Craps</button>
+    <br>
+    <br>
+    <br>
+    <div id="sandboxDisplay">Sandbox Display</div>
+    <br>
+    <button class="sandbutton" onclick="runSandbox();">Try it!</button>
+
+</body>
+
+</html>
